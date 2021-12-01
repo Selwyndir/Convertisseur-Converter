@@ -8,33 +8,33 @@ while 1==1:
     print(" H= Hexadecimal B= Binaire D= Decimal")
     choice = str(input(">>> "))
     if choice== "DTB":
-        print("Quelle nombre decimal doit être converti en binaire ?")
+        print("Quel nombre decimal doit être converti en binaire ?")
         Deci = int(input(">>> "))
         Bin=bin(Deci)
         Bin=Bin[2::]
         print(Bin)
         pause = input("Appuyer sur enter pour continuer")
     elif choice== "BTD":
-        print("Quelle nombre binaire doit être converti en decimal ?")
+        print("Quel nombre binaire doit être converti en decimal ?")
         Bin = str(input(">>> "))
         Deci=int(Bin, 2)
         print(Deci)
         pause = input("Appuyer sur enter pour continuer")        
     elif choice== "DTH":
-        print("Quelle nombre decimal doit être converti en hexadecimal ?")
+        print("Quel nombre decimal doit être converti en hexadecimal ?")
         Deci = int(input(">>> "))
         Hexa=hex(Deci)
         Hexa=Hexa[2::]
         print(Hexa)
         pause = input("Appuyer sur enter pour continuer")
     elif choice== "HTD":
-        print("Quelle nombre hexadecimal doit être converti en decimal ?")
+        print("Quel nombre hexadecimal doit être converti en decimal ?")
         Hexa = str(input(">>> "))
         Deci=int(Hexa, 16)
         print(Deci)
         pause = input("Appuyer sur enter pour continuer")
     elif choice== "BTH":
-        print("Quelle nombre binaire doit être converti en hexadecimal ?")
+        print("Quel nombre binaire doit être converti en hexadecimal ?")
         Bin = int(input(">>> "))
         Hexa=hex(Bin)
         Hexa=Hexa[2::]
@@ -42,7 +42,7 @@ while 1==1:
         pause = input("Appuyer sur enter pour continuer")
         
     elif choice== "HTB":
-        print("Quelle nombre hexadecimal doit être converti en binaire ?")
+        print("Quel nombre hexadecimal doit être converti en binaire ?")
         Hexa = str(input(">>> "))
         Deci=int(Hexa, 16)
         Bin=bin(Deci)
